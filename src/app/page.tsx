@@ -8,8 +8,6 @@ export default async function HomePage() {
     orderBy: (model, { desc }) => desc(model.id),
   });
 
-  console.log(images);
-
   return (
     <main className="p-4">
       <div className="flex flex-wrap gap-4">

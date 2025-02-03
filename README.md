@@ -7,8 +7,9 @@
 - [x] Optimize build process
 - [x] Set up database (vercel postgres)
 - [x] Attach database to UI
-- [ ] Add authentication (clerck)
+- [x] Add authentication (clerk)
 - [ ] Add image upload
+- [ ] "taint" (server-only)
 - [ ] Error management (sentry)
 - [ ] Routing/image age (parallel route)
 - [ ] Delete button (w/ server function)
