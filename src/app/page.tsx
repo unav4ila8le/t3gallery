@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { db } from "~/server/db";
 
 export const dynamic = "force-dynamic";
@@ -13,7 +12,7 @@ export default async function HomePage() {
       <div className="flex flex-wrap gap-4">
         {images.map((image) => (
           <div key={image.id} className="flex h-64 w-64 flex-col gap-2">
-            <Image
+            <img
               src={image.url}
               alt="Image"
               width={256}
