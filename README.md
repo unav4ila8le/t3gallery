@@ -10,7 +10,7 @@
 - [x] Add authentication (clerk)
 - [x] Add image upload
 - [x] "taint" (server-only)
-- [ ] Error management (sentry)
+- [x] Error management (sentry)
 - [ ] Routing/image age (parallel route)
 - [ ] Delete button (w/ server function)
 - [ ] Analytics
